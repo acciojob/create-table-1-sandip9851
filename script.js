@@ -1,4 +1,5 @@
 function insert_Row() {
+    let table = document.querySelector("#sampleTable");
     let row = document.createElement('tr'); // create row node
     let col1 = document.createElement('td'); // create column node
     let col2 = document.createElement('td'); // create second column node
