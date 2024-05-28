@@ -7,5 +7,5 @@ function insert_Row() {
     col2.innerHTML = "New Cell2"; // append second column data
     row.appendChild(col1); // append first column to row
     row.appendChild(col2); // append second column to row
-    table.prepend(row); // append row to table
+    table.tBodies[0].prepend(row); // append row to the tbody of the table
 }
